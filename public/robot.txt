@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wisdomossai.dev/sitemap.xml
+Sitemap: https://wisdom-ossai.netlify.app/sitemap.xml

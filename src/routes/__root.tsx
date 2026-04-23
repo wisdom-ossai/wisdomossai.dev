@@ -18,12 +18,12 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'Wisdom Ossai is a Senior Frontend Developer based in San Francisco with 5+ years of experience building pixel-perfect, accessible, and performant web applications using React, TypeScript, and Next.js.',
+          'Wisdom Ossai is a Senior Frontend Developer based in Lagos, Nigeria with 5+ years of experience building pixel-perfect, accessible, and performant web applications using React, TypeScript, and Next.js.',
       },
       {
         name: 'keywords',
         content:
-          'frontend developer, react developer, typescript, next.js, UI engineer, web developer, san francisco, portfolio, javascript, tailwind css',
+          'frontend developer, react developer, typescript, next.js, UI engineer, web developer, Lagos, Nigeria, portfolio, javascript, tailwind css',
       },
       { name: 'author', content: 'Wisdom Ossai' },
       {
@@ -88,7 +88,7 @@ export const Route = createRootRoute({
     ],
     links: [
       { rel: 'canonical', href: 'https://wisdom-ossai.netlify.app/' },
-      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+      { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
@@ -134,9 +134,9 @@ export const Route = createRootRoute({
               ],
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'San Francisco',
-                addressRegion: 'CA',
-                addressCountry: 'US',
+                addressLocality: 'Lagos, Nigeria',
+                addressRegion: 'LA',
+                addressCountry: 'NG',
               },
               email: 'ossaiwisdom48@gmail.com',
               knowsAbout: [
@@ -157,7 +157,7 @@ export const Route = createRootRoute({
               url: 'https://wisdom-ossai.netlify.app/',
               name: 'Wisdom Ossai – Frontend Developer Portfolio',
               description:
-                'Portfolio website of Wisdom Ossai, Senior Frontend Developer based in San Francisco.',
+                'Portfolio website of Wisdom Ossai, Senior Frontend Developer based in Lagos, Nigeria.',
               author: { '@id': 'https://wisdom-ossai.netlify.app/#person' },
               inLanguage: 'en-US',
             },
