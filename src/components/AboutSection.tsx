@@ -82,7 +82,7 @@ export default function AboutSection() {
                   <div className="relative w-full h-full rounded-2xl overflow-hidden border border-gray-800">
                     <img
                       src="/profile.png"
-                      alt="Wisdom Ossai – Senior Frontend Developer based in San Francisco"
+                      alt="Wisdom Ossai – Senior Frontend Developer based in Lagos Nigeria"
                       width="288"
                       height="288"
                       loading="eager"

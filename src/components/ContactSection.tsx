@@ -23,8 +23,8 @@ export default function ContactSection() {
 
   const contactInfo = [
     { icon: Mail, label: 'Email', value: 'ossaiwisdom48@gmail.com' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567' },
+    { icon: MapPin, label: 'Location', value: 'Lagos Nigeria' },
+    { icon: Phone, label: 'Phone', value: '+234 806 748 0053' },
   ]
 
   return (
