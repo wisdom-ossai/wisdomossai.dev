@@ -34,7 +34,7 @@ export const Route = createRootRoute({
 
       // Open Graph
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://wisdomossai.dev/' },
+      { property: 'og:url', content: 'https://wisdom-ossai.netlify.app/' },
       {
         property: 'og:site_name',
         content: 'Wisdom Ossai – Frontend Developer',
@@ -51,8 +51,7 @@ export const Route = createRootRoute({
       },
       {
         property: 'og:image',
-        content:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop',
+        content: 'https://wisdom-ossai.netlify.app/profile.png',
       },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
@@ -77,8 +76,7 @@ export const Route = createRootRoute({
       },
       {
         name: 'twitter:image',
-        content:
-          'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=630&fit=crop',
+        content: 'https://wisdom-ossai.netlify.app/profile.png',
       },
       {
         name: 'twitter:image:alt',
@@ -89,7 +87,7 @@ export const Route = createRootRoute({
       { name: 'theme-color', content: '#0a0a0a' },
     ],
     links: [
-      { rel: 'canonical', href: 'https://wisdomossai.dev/' },
+      { rel: 'canonical', href: 'https://wisdom-ossai.netlify.app/' },
       { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       {
         rel: 'apple-touch-icon',
@@ -100,10 +98,10 @@ export const Route = createRootRoute({
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
         rel: 'preconnect',
-        href: 'https://images.unsplash.com',
+        href: 'https://wisdom-ossai.netlify.app',
         crossOrigin: 'anonymous',
       },
-      { rel: 'dns-prefetch', href: 'https://images.unsplash.com' },
+      { rel: 'dns-prefetch', href: 'https://wisdom-ossai.netlify.app' },
       {
         rel: 'stylesheet',
         href: appCss,
@@ -117,12 +115,12 @@ export const Route = createRootRoute({
           '@graph': [
             {
               '@type': 'Person',
-              '@id': 'https://wisdomossai.dev/#person',
+              '@id': 'https://wisdom-ossai.netlify.app/#person',
               name: 'Wisdom Ossai',
-              url: 'https://wisdomossai.dev/',
+              url: 'https://wisdom-ossai.netlify.app/',
               image: {
                 '@type': 'ImageObject',
-                url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+                url: 'https://wisdom-ossai.netlify.app/profile.png',
                 width: 400,
                 height: 400,
               },
@@ -155,21 +153,21 @@ export const Route = createRootRoute({
             },
             {
               '@type': 'WebSite',
-              '@id': 'https://wisdomossai.dev/#website',
-              url: 'https://wisdomossai.dev/',
+              '@id': 'https://wisdom-ossai.netlify.app/#website',
+              url: 'https://wisdom-ossai.netlify.app/',
               name: 'Wisdom Ossai – Frontend Developer Portfolio',
               description:
                 'Portfolio website of Wisdom Ossai, Senior Frontend Developer based in San Francisco.',
-              author: { '@id': 'https://wisdomossai.dev/#person' },
+              author: { '@id': 'https://wisdom-ossai.netlify.app/#person' },
               inLanguage: 'en-US',
             },
             {
               '@type': 'WebPage',
-              '@id': 'https://wisdomossai.dev/#webpage',
-              url: 'https://wisdomossai.dev/',
+              '@id': 'https://wisdom-ossai.netlify.app/#webpage',
+              url: 'https://wisdom-ossai.netlify.app/',
               name: 'Wisdom Ossai | Senior Frontend Developer – React, TypeScript & UI Engineering',
-              isPartOf: { '@id': 'https://wisdomossai.dev/#website' },
-              about: { '@id': 'https://wisdomossai.dev/#person' },
+              isPartOf: { '@id': 'https://wisdom-ossai.netlify.app/#website' },
+              about: { '@id': 'https://wisdom-ossai.netlify.app/#person' },
               description:
                 "Wisdom Ossai's professional portfolio showcasing frontend development projects, experience, and skills.",
               inLanguage: 'en-US',
@@ -180,14 +178,14 @@ export const Route = createRootRoute({
                     '@type': 'ListItem',
                     position: 1,
                     name: 'Home',
-                    item: 'https://wisdomossai.dev/',
+                    item: 'https://wisdom-ossai.netlify.app/',
                   },
                 ],
               },
             },
             {
               '@type': 'ProfilePage',
-              mainEntity: { '@id': 'https://wisdomossai.dev/#person' },
+              mainEntity: { '@id': 'https://wisdom-ossai.netlify.app/#person' },
             },
           ],
         }),
